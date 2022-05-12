@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+//let m = Math.sin(5);
+//let n = Math.pow (Math.E, m);
+//let k = (m + n);
+let m, n, k, a, b, w;
+
+m = Math.sin(5); 
+// Больше 3.14 радиан JS не считает почему то в данном файле, меньшие значения рассчитываются, в отдельном файле все считается.
+
+n = Math.pow(Math.E, m);
+
+k= (m + n);
+
+a = Math.log(Math.pow(n, 2))+ m;
+
+b = Math.acos(k)/a;
+
+if (a < Math.pow(b, 3)) {w = Math.sqrt(a+1)}
+else {w = Math.sqrt(a+2)}
+
+alert(w)
+
+
+</script>
+
+
+</body>
+</html>
